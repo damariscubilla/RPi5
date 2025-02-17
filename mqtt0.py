@@ -8,7 +8,7 @@ from gpiozero import Button
 # Configuraci�n
 BROKER = "138.100.69.38"  # IP de la Raspberry Pi
 TOPIC = "sensores/datos"
-SAVE_DIR = "/home/caminos/ADS"  # Carpeta donde se guardar�n los archivos CSV
+SAVE_DIR = "/home/caminos/ADS/Test"  # Carpeta donde se guardar�n los archivos CSV
 BUTTON_GPIO = 17  # GPIO del bot�n
 
 # Variables de estado
